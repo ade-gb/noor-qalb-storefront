@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f2ec" />
+  <meta name="description" content="Noor Qalb — meaningful jewelry rooted in faith, made to be carried close." />
+  <title>Noor Qalb — Wear your faith. Carry your heritage.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <div class="announcement"><span>Complimentary shipping on orders over $100</span><a href="#shop">Discover the collection <span aria-hidden="true">↗</span></a></div>
+  <header class="site-header">
+    <button class="icon-button menu-toggle" aria-label="Open menu" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+    <nav class="nav-left" aria-label="Main navigation"><a href="#shop">Shop</a><a href="#story">Our story</a><a href="#community">Community</a></nav>
+    <a class="wordmark" href="#top" aria-label="Noor Qalb home"><span class="wordmark-main">noor qalb</span><span class="wordmark-sub">JEWELRY WITH MEANING</span></a>
+    <div class="nav-right">
+      <button class="icon-button search-toggle" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button>
+      <a class="account-link" href="#community">Account</a>
+      <button class="bag-button" aria-label="Shopping bag, 0 items">Bag <span class="bag-count">0</span></button>
+    </div>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Noor Qalb rings and engraved bangle worn by a model"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow light">A little light, wherever you go</p>
+        <h1>Wear your faith.<br><em>Carry your heritage.</em></h1>
+        <p class="hero-intro">Jewelry made to hold what matters — the stories, the prayers, the people who made you.</p>
+        <a class="button button-light" href="#shop">Shop the collection <span>↗</span></a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span><span>Made for the moments<br>that make you, you.</span></div>
+      <div class="hero-index">01 <span>—</span> 03</div>
+    </section>
+    <section class="intro section-pad">
+      <p class="eyebrow">The Noor Qalb feeling</p>
+      <h2>Some things are too meaningful<br>to leave <em>at home.</em></h2>
+      <p class="intro-body">A verse you carry. A symbol that brings you back to yourself. An heirloom in the making. We create pieces with intention, for the everyday and everything in between.</p>
+      <a class="text-link" href="#story">The heart behind the jewelry <span>→</span></a>
+      <div class="intro-ornament" aria-hidden="true">✳</div>
+    </section>
+    <section class="shop-section section-pad" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">Find your forever piece</p><h2>Made to <em>mean more.</em></h2></div><a class="text-link desktop-link" href="#all">View all jewelry <span>→</span></a></div>
+      <div class="category-tabs" role="tablist" aria-label="Jewelry categories">
+        <button class="category-tab is-active" data-filter="all" role="tab" aria-selected="true">All pieces</button><button class="category-tab" data-filter="necklaces" role="tab" aria-selected="false">Necklaces</button><button class="category-tab" data-filter="rings" role="tab" aria-selected="false">Rings</button><button class="category-tab" data-filter="bracelets" role="tab" aria-selected="false">Bracelets</button>
+      </div>
+      <div class="product-grid" id="all">
+        <article class="product-card" data-category="necklaces"><div class="product-image"><img loading="lazy" src="./images/arabic-pendant.png" alt="Gold Arabic name necklace against soft fabric"><button class="quick-add" aria-label="Add Arabic name necklace to bag" data-name="Arabic Name Necklace" data-price="68">＋</button></div><div class="product-info"><div><h3>Arabic Name Necklace</h3><p>Gold pendant · Fine chain</p></div><span class="price">$68</span></div></article>
+        <article class="product-card" data-category="rings"><div class="product-image"><img loading="lazy" src="./images/hero-ring-bracelet.png" alt="Model wearing a gold ring and engraved bracelet"><button class="quick-add" aria-label="Add stacking ring to bag" data-name="Stacking Ring" data-price="54">＋</button></div><div class="product-info"><div><h3>Stacking Ring</h3><p>Gold-tone · Layered detail</p></div><span class="price">$54</span></div></article>
+        <article class="product-card" data-category="bracelets"><div class="product-image"><img loading="lazy" src="./images/engraved-bracelet.png" alt="Engraved gold bangle and charm bracelet worn together"><button class="quick-add" aria-label="Add engraved bracelet to bag" data-name="Engraved Bracelet" data-price="62">＋</button></div><div class="product-info"><div><h3>Engraved Bracelet</h3><p>Gold-tone · Heritage pattern</p></div><span class="price">$62</span></div></article>
+        <article class="product-card" data-category="necklaces"><div class="product-image"><img loading="lazy" src="./images/green-velvet-set.png" alt="Gold necklace and engraved bangle styled on green velvet"><button class="quick-add" aria-label="Add Noor Qalb jewelry set to bag" data-name="Noor Qalb Jewelry Set" data-price="72">＋</button></div><div class="product-info"><div><h3>Noor Qalb Set</h3><p>Necklace & engraved bangle</p></div><span class="price">$72</span></div></article>
+      </div>
+      <a class="text-link mobile-link" href="#all">View all jewelry <span>→</span></a>
+    </section>
+    <section class="quote-section">
+      <div class="quote-image" role="img" aria-label="A woman wearing meaningful jewelry"></div>
+      <div class="quote-copy"><p class="eyebrow light">A reminder, close to your heart</p><blockquote>“Carry what matters, <em>close to your heart.</em>”</blockquote><p class="quote-credit">The Noor Qalb feeling</p><a class="button button-outline" href="#shop">Explore the collection <span>↗</span></a></div>
+      <div class="quote-mark" aria-hidden="true">“</div>
+    </section>
+    <section class="values section-pad" id="story">
+      <div class="values-heading"><p class="eyebrow">Small details. Deep meaning.</p><h2>Rooted in where<br>you come <em>from.</em></h2><p>Every Noor Qalb piece begins with a feeling — a quiet reminder to stay close to what grounds you.</p><a class="text-link" href="#community">Get to know us <span>→</span></a></div>
+      <div class="value-list">
+        <article class="value-item"><span class="value-number">01</span><div><h3>Made with intention</h3><p>Thoughtful materials, considered details, and symbols chosen for their lasting meaning.</p></div><span class="value-symbol">✳</span></article>
+        <article class="value-item"><span class="value-number">02</span><div><h3>Created to be lived in</h3><p>Easy, enduring pieces that move with you from morning rituals to the moments worth celebrating.</p></div><span class="value-symbol">✳</span></article>
+        <article class="value-item"><span class="value-number">03</span><div><h3>A community of light</h3><p>For every story, every background, and every way of carrying your faith with pride.</p></div><span class="value-symbol">✳</span></article>
+      </div>
+    </section>
+    <section class="community" id="community"><div class="community-copy"><p class="eyebrow light">The Noor Qalb circle</p><h2>Worn by you.<br><em>Made for all of us.</em></h2><p>Real stories, shared light, and the pieces that make your everyday feel like yours.</p><a class="button button-light" href="https://www.instagram.com/joinnoorqalb/" target="_blank" rel="noreferrer">Follow along <span>↗</span></a></div><div class="community-tiles"><div class="community-tile tile-one"><img loading="lazy" src="./images/portrait-stacking.png" alt="Model wearing Noor Qalb jewelry"></div><div class="community-tile tile-two"><img loading="lazy" src="./images/collection-flatlay.png" alt="Noor Qalb jewelry and keepsake pouches"></div><div class="community-tile tile-three"><img loading="lazy" src="./images/noor-packaging.png" alt="Noor Qalb pieces in branded packaging"></div><div class="community-tile tile-four"><img loading="lazy" src="./images/bracelet-box.png" alt="Noor Qalb charm bracelet in its green velvet box"></div><span class="community-tag">#noorqalb</span></div></section>
+    <section class="newsletter section-pad"><p class="eyebrow">A little light in your inbox</p><h2>Stay close to <em>what matters.</em></h2><p>New pieces, stories from our community, and a note from us now and then.</p><form class="newsletter-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">Join us <span>→</span></button></form><span class="form-message" aria-live="polite"></span></section>
+  </main>
+  <footer class="footer"><div class="footer-top"><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-main">noor qalb</span><span class="wordmark-sub">JEWELRY WITH MEANING</span></a><p>Wear your faith.<br>Carry your heritage.</p><div class="footer-links"><a href="#shop">Shop jewelry</a><a href="#story">Our story</a><a href="#community">Instagram</a><a href="mailto:hello@noorqalb.com">Contact us</a></div><div class="footer-links"><a href="#shipping">Shipping & returns</a><a href="#care">Jewelry care</a><a href="#faq">FAQs</a></div></div><div class="footer-bottom"><span>© 2026 Noor Qalb Jewelry</span><span>Made with meaning, worn with love.</span><div><a href="#privacy">Privacy</a><a href="#terms">Terms</a></div></div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <div class="search-overlay" aria-hidden="true"><button class="overlay-close" aria-label="Close search">×</button><div class="search-panel"><p class="eyebrow">Find your piece</p><label class="sr-only" for="site-search">Search jewelry</label><input id="site-search" type="search" placeholder="Search jewelry…"><p class="search-hint">Try “necklace”, “ring” or “gift”</p></div></div>
+  <aside class="cart-drawer" aria-label="Shopping bag" aria-hidden="true"><div class="drawer-head"><h2>Your bag <span class="drawer-count">(0)</span></h2><button class="drawer-close" aria-label="Close bag">×</button></div><div class="cart-items"></div><div class="cart-empty"><p>Your bag is waiting for something meaningful.</p><a href="#shop" class="text-link">Explore the collection →</a></div><div class="cart-footer"><div class="cart-subtotal"><span>Subtotal</span><strong>$0</strong></div><button class="button checkout-button">Continue to checkout <span>↗</span></button><small>Shipping and taxes calculated at checkout.</small></div></aside>
+  <div class="scrim"></div>
+</body>
+</html>
